@@ -1,0 +1,393 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@test.com",
+      "password": "password",
+      "role": "admin",
+      "avatar": "https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff"
+    },
+    {
+      "id": "2",
+      "name": "Foreman User",
+      "email": "foreman@test.com",
+      "password": "password",
+      "role": "foreman",
+      "avatar": "https://ui-avatars.com/api/?name=Foreman+User&background=random"
+    },
+    {
+      "id": "3",
+      "name": "Sales User",
+      "email": "sales@test.com",
+      "password": "password",
+      "role": "sales",
+      "avatar": "https://ui-avatars.com/api/?name=Sales+User&background=random"
+    },
+    {
+      "id": "4",
+      "name": "Driver User",
+      "email": "driver@test.com",
+      "password": "password",
+      "role": "driver",
+      "avatar": "https://ui-avatars.com/api/?name=Driver+User&background=random"
+    },
+    {
+      "id": "0da3",
+      "name": "Kalees",
+      "email": "vk@gmail.com",
+      "role": "admin",
+      "avatar": "https://ui-avatars.com/api/?name=Kalees&background=random",
+      "password": "password"
+    }
+  ],
+  "products": [],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Furniture"
+    },
+    {
+      "id": "3",
+      "name": "Clothing"
+    },
+    {
+      "id": "4",
+      "name": "Food"
+    },
+    {
+      "id": "dc85",
+      "name": "Other"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Acme Corp",
+      "email": "contact@acme.com",
+      "phone": "1234567890",
+      "address": "123 Industrial Way"
+    },
+    {
+      "id": "11e0",
+      "name": "MRF",
+      "email": "mrf@gmail.com",
+      "phone": "8465786754",
+      "address": "Chennai",
+      "rating": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": "da71",
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "phone": "8248587645",
+      "address": "Tenkasi",
+      "credit_limit": 5000,
+      "current_debt": 0
+    },
+    {
+      "id": "4c07",
+      "name": "Praveen",
+      "email": "praveen@gmail.com",
+      "phone": "8565784567",
+      "address": "Tirunelveli",
+      "credit_limit": 4500,
+      "current_debt": 0
+    },
+    {
+      "id": "5ad6",
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "phone": "6756487654",
+      "address": "Tenkasi",
+      "credit_limit": 10000,
+      "current_debt": 0
+    },
+    {
+      "id": "54fb",
+      "name": "Ganesh",
+      "email": "",
+      "phone": "6576879845",
+      "address": "",
+      "credit_limit": 0,
+      "current_debt": 0
+    },
+    {
+      "id": "7d3f",
+      "name": "Deepan",
+      "email": "",
+      "phone": "6545343423",
+      "address": "",
+      "credit_limit": 0,
+      "current_debt": 0
+    }
+  ],
+  "inventory": [
+    {
+      "id": "0292",
+      "product_id": 0,
+      "product_name": "Milk",
+      "location": "shop",
+      "quantity": 23,
+      "min_stock_level": 10,
+      "category": "Food",
+      "cost_price": 10,
+      "selling_price": 15
+    },
+    {
+      "id": "1086",
+      "product_id": 1,
+      "product_name": "Hero Pen",
+      "location": "shop",
+      "quantity": 94,
+      "min_stock_level": 10,
+      "category": "Other",
+      "cost_price": 50,
+      "selling_price": 65
+    }
+  ],
+  "sales": [
+    {
+      "id": "3098",
+      "customer_id": 0,
+      "date": "2026-01-20",
+      "total_amount": 30,
+      "paid_amount": 30,
+      "payment_mode": "cash",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "Milk",
+          "quantity": 2,
+          "unit_price": 15,
+          "total": 30
+        }
+      ]
+    },
+    {
+      "id": "be1b",
+      "customer_id": "4c07",
+      "date": "2026-01-20",
+      "total_amount": 195,
+      "paid_amount": 195,
+      "payment_mode": "bank",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "Hero Pen",
+          "quantity": 3,
+          "unit_price": 65,
+          "total": 195
+        }
+      ]
+    },
+    {
+      "id": "5445",
+      "customer_id": "54fb",
+      "date": "2026-01-20",
+      "total_amount": 65,
+      "paid_amount": 65,
+      "payment_mode": "cash",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "Hero Pen",
+          "quantity": 1,
+          "unit_price": 65,
+          "total": 65
+        }
+      ]
+    },
+    {
+      "id": "88fb",
+      "customer_id": "5ad6",
+      "date": "2026-01-20",
+      "total_amount": 325,
+      "paid_amount": 325,
+      "payment_mode": "cash",
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "Hero Pen",
+          "quantity": 5,
+          "unit_price": 65,
+          "total": 325,
+          "inventory_item_id": null
+        }
+      ]
+    },
+    {
+      "id": "b3e2",
+      "customer_id": "da71",
+      "date": "2026-01-20T11:52:21.025",
+      "total_amount": 80,
+      "paid_amount": 80,
+      "payment_mode": "cash",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "Milk",
+          "quantity": 1,
+          "unit_price": 15,
+          "total": 15,
+          "inventory_item_id": null
+        },
+        {
+          "product_id": 1,
+          "product_name": "Hero Pen",
+          "quantity": 1,
+          "unit_price": 65,
+          "total": 65,
+          "inventory_item_id": null
+        }
+      ]
+    }
+  ],
+  "purchases": [],
+  "purchase_requests": [
+    {
+      "id": "a3a2",
+      "requester_id": 1,
+      "date": "2026-01-20",
+      "status": "approved",
+      "items": [
+        {
+          "product_id": null,
+          "product_name": "Milk Carrier",
+          "quantity": 3,
+          "estimated_price": 45
+        },
+        {
+          "product_id": null,
+          "product_name": "Carry Bags",
+          "quantity": 60,
+          "estimated_price": 10
+        }
+      ],
+      "approved_by": "Supervisor",
+      "rejection_reason": null
+    }
+  ],
+  "attendance": [],
+  "payroll": [],
+  "metadata": {
+    "locations": [
+      "godown",
+      "shop",
+      "van",
+      "transit",
+      "customer_location"
+    ]
+  },
+  "invoices": [
+    {
+      "id": "7e0d",
+      "quotation_id": "1c43",
+      "customer_id": 0,
+      "customer_name": "Ram",
+      "date": "2026-01-19",
+      "due_date": "2026-02-18",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "MRF Tyres",
+          "quantity": 10,
+          "unit_price": 100,
+          "total": 1000
+        },
+        {
+          "product_id": 0,
+          "product_name": "Milk",
+          "quantity": 4,
+          "unit_price": 56,
+          "total": 224
+        }
+      ],
+      "total_amount": 1224,
+      "paid_amount": 1224,
+      "status": "paid"
+    }
+  ],
+  "quotations": [
+    {
+      "id": "48fe",
+      "customer_id": 0,
+      "customer_name": "Ram",
+      "date": "2026-01-19",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "MRF Tyres",
+          "quantity": 10,
+          "unit_price": 100,
+          "total": 1000
+        }
+      ],
+      "total_amount": 1000,
+      "status": "draft",
+      "revision_number": 0,
+      "original_quote_id": null
+    },
+    {
+      "id": "d885",
+      "customer_id": 0,
+      "customer_name": "Ram",
+      "date": "2026-01-19",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "MRF Tyres",
+          "quantity": 10,
+          "unit_price": 100,
+          "total": 1000
+        }
+      ],
+      "total_amount": 1000,
+      "status": "draft",
+      "revision_number": 1,
+      "original_quote_id": "48fe"
+    },
+    {
+      "id": "1c43",
+      "customer_id": 0,
+      "customer_name": "Ram",
+      "date": "2026-01-19",
+      "items": [
+        {
+          "product_id": 0,
+          "product_name": "MRF Tyres",
+          "quantity": 10,
+          "unit_price": 100,
+          "total": 1000
+        },
+        {
+          "product_id": 0,
+          "product_name": "Milk",
+          "quantity": 4,
+          "unit_price": 56,
+          "total": 224
+        }
+      ],
+      "total_amount": 1224,
+      "status": "converted",
+      "revision_number": 2,
+      "original_quote_id": "48fe"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "c743",
+      "invoice_id": "7e0d",
+      "amount": 1224,
+      "date": "2026-01-19",
+      "payment_method": "Cash",
+      "transaction_id": null
+    }
+  ]
+}
